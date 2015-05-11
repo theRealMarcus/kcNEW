@@ -11,6 +11,7 @@
 	<script src="js/jquery.SPServices-2014.02.js"></script>
 	<script src="js/myFunctions.js"></script>
 	<script src="js/sliderImagesLoad.js"></script>
+	<script src="js/overlay.js"></script>
 
 
 	<!--Styles-->
@@ -21,26 +22,44 @@
 </head>
 <body>
 
+	<!--new overlay box
+	<div id="overlay-inAbox" class="overlay">
+	    <div class="toolbar"><a class="close" href="#"><span>x</span> close</a></div>
+	    <div class="wrapper">
+	        Hello! I'm in a box.
+	    </div>
+	</div>
+
+	
+
+
 	<!--Search Overlay and Search Box-->
-	<div id="searchOverlay">
+<!-- 	<div id="searchOverlay">
 		<div id="searchBox">
 			<p class="searchToggle">&#10008; Close</p>
 			<p>Enter Search Here...</p>
 			<input type="search">
 		</div>
 	</div>
-	<!--'Back to the Top' arrow-->
-	<img src="img/upArrow.png" height="64" width="64" alt="" id="bttt">
+	<!--'Back to the Top' arrow
+	<img src="img/upArrow.png" height="64" width="64" alt="" id="bttt"> -->
+
+
+
 	<!--start of body container-->
 	<div id="container">
 		<div id="header">
-			<div id="kclogo">
-				
+			<div id="headerLogo">
+				<img src="http://placehold.it/300x80" height="" width="">
 			</div>
-			<div id="kcIcons">
-				<img src="" alt="">
-				<img src="" alt="">
-				<img src="http://icons.iconarchive.com/icons/double-j-design/origami-colored-pencil/256/blue-search-icon.png" height="32" width="32" alt="" class="searchToggle">
+			<div id="headerIcons">
+				<!-- <a href="#" id="overlaylaunch-inAbox">Launch It!</a> -->
+				<ul>
+					<li><a href="JavaScript:void(0);"><img src=""></a></li>
+					<li><a href="JavaScript:void(0);"><img src=""></a></li>
+					<li><a href="JavaScript:void(0);"><img src=""></a></li>
+					<li><a href="JavaScript:void(0);"><img src=""></a></li>
+				</ul>
 			</div>
 		</div>
 		<div id="kcnav">

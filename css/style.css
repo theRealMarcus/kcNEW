@@ -4,44 +4,59 @@ body{
 	background-image: url(../img/background.jpg);
 	background-repeat: repeat;
 }
+/*Back to the top Button*/
 #bttt{
 	position: fixed;
 	right: 10px;
 	bottom: 50px;
 	opacity: 0.3;
 }
+/*Containter Code*/
 #container{
-	width: 1022px;
+	width: 1000px;
 	height: auto;
 	margin: 0 auto;
 	min-height: 3000px;
 	background: white;
+	padding: 11px;
+}
 
-}
-#searchOverlay{
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	background-color: rgba(255, 255, 255, 0.8);
-	z-index: 20;
-	display: none;
-}
-#searchBox{
-	width: 700px;
+
+/*Header CSS*/
+#header{
 	height: auto;
-	margin: 100px auto;
-	background: green;
-	border-radius: 5px;
-	padding: 10px;
-}
-.searchToggle{
-	color: white;
-	text-align: right;
-}
-#searchBox p{
-	text-align: left;
-}
-#searchBox input{
-	border-radius: 0px;
 	width: 100%;
+	background: green;
+}
+#headerLogo{
+	width: 30%;
+	height: auto;
+	min-height: 80px;
+	float: left;
+	background: blue;
+}
+#headerLogo img{
+	line-height: normal;
+	vertical-align: top;
+}
+#headerIcons{
+	width: 70%;
+	height: auto;
+	float: right;
+	background: black;
+	min-height: 80px;
+}
+#headericons ul{
+	display: inline;
+	float: right;
+}
+#headerIcons ul li{
+	display: inline;
+	float: left;
+}
+#headerIcons ul li a img{
+	background: red;
+	vertical-align: top;
+	width: 64px;
+	height: 64px;
 }
