@@ -15,10 +15,11 @@ body{
 #container{
 	width: 1000px;
 	height: auto;
-	margin: 0 auto;
+	margin: 35px auto;
 	min-height: 3000px;
 	background: white;
 	padding: 11px;
+	border-radius: 4px;
 }
 
 
@@ -26,29 +27,36 @@ body{
 #header{
 	height: auto;
 	width: 100%;
-	background: green;
+	background: #ccc;
+	overflow: auto;
+	border-radius: 2px;
+	border-bottom: 3px solid #151A2E;
 }
 #headerLogo{
 	width: 30%;
 	height: auto;
 	min-height: 80px;
 	float: left;
-	background: blue;
+	background: transparent;
+	margin: 20px;
 }
 #headerLogo img{
 	line-height: normal;
 	vertical-align: top;
 }
 #headerIcons{
-	width: 70%;
+	width: auto;
 	height: auto;
 	float: right;
-	background: black;
+	background: transparent;
 	min-height: 80px;
+	padding: 20px;
 }
+
 #headericons ul{
 	display: inline;
 	float: right;
+	position: relative;
 }
 #headerIcons ul li{
 	display: inline;
