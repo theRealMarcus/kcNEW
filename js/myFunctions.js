@@ -16,10 +16,14 @@ $(document).ready(function(){
 	});
 
 	//Slide Toggle the SharePoint ribbon
-	$('#headerIcons > ul > li > a > img:last').click(function(){
+	$('#headerIcons > ul > li > a > img:nth-child(1)').click(function(){
 		$('#SPRibbon').slideToggle("fast");
 	});
 
 	//Tooltips for header Icons and Wiki Pages
+
+
+	//
+	$('#kcnav').load("../includes/navContent.html");s
 
 });
