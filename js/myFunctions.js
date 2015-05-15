@@ -8,7 +8,18 @@ $(document).ready(function(){
 		$(this).fadeTo((0.25 * 1000), 0.3)
 	});
 
+	//Initialize the  BoxSlider
+	$('.bxslider').bxSlider({
+		auto: true,
+		autoControls: true,
+		pause: (6 * 1000);
+		mode: 'horizontal'
+	});
+
 	//Scrolls the document up to the top
+	$("#bttt").click(function(){
+
+	});
 
 	//Search overlay
 	$('.searchToggle').click(function(){
@@ -16,14 +27,29 @@ $(document).ready(function(){
 	});
 
 	//Slide Toggle the SharePoint ribbon
-	$('#headerIcons > ul > li > a > img:nth-child(1)').click(function(){
+	$('#headerIcons > ul > li > a > img:first').click(function(){
 		$('#SPRibbon').slideToggle("fast");
 	});
 
-	//Tooltips for header Icons and Wiki Pages
-
+	//Hover over Icons to update background
+	$('#headerIcons').on("hover", function(){
+		$(this).css("background", "red");
+	});
 
 	//
-	$('#kcnav').load("../includes/navContent.html");s
+	// $('#headerIcons > ul > li > a > img:first').toggle(function() {
+ //    	$(this).rotate({ endDeg:90, persist:true });
+ //  	}, function() {
+ //    	$(this).rotate({ endDeg:-90 });
+ //  	});
+
+	//Tooltips for header Icons and Wiki Pages
+	$(function(){
+		$(document).tooltip();
+	})
+	
+
+	//Leading the Navigation Markup from the navContent.html file
+	$('#kcnav').load("../includes/navContent.html");
 
 });

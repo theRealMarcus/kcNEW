@@ -24,9 +24,17 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">​
 
-
+<script>
+	$(document).ready(function(){
+		$('.bxslider').bxslider({
+			auto: true,
+			autoControls: true,
+			mode; 'horizontal'
+		});
+	});
+</script>
 </head>
-<body style="margin: 0; padding: 0;">
+<body>
 
 	<!--new overlay box
 	<div id="overlay-inAbox" class="overlay">
@@ -47,15 +55,15 @@
 			<input type="search">
 		</div>
 	</div>
-	<!--'Back to the Top' arrow
-	<img src="img/upArrow.png" height="64" width="64" alt="" id="bttt"> -->
+	<!--'Back to the Top' arrow-->
+	<img src="img/upArrow.png" height="64" width="64" alt="" id="bttt">
 
 
 	<div id="SPRibbon" style="background: blue; width: inherit; height: 80px; display: none; margin: 0; padding: 0; position: block;"></div>
 
 
 	<!--start of body container-->
-	<div id="container">
+	<div id="headerContainer">
 		<div id="header">
 			<div id="headerLogo">
 				<a href="JavaScript:void(0);"><img src="img/logoMain.png" title="Title Tests"></a>
@@ -63,34 +71,34 @@
 			<div id="headerIcons">
 				<!-- <a href="#" id="overlaylaunch-inAbox">Launch It!</a> -->
 				<ul>
-					<li><a href="JavaScript:void(0);"><img src="img/keys18.png" title="SharePoint features"></a></li>
-					<li><a href="JavaScript:void(0);"><img src="img/message38.png" title="Check out the study hall!"></a></li>
-					<li><a href="JavaScript:void(0);"><img src="img/magnifyingglass23.png" title="Search the Knowledge Center!"></a></li>
-
+					<li><a href="JavaScript:void(0);"><img src="img/spFeatures.png" title="SharePoint Features"></a></li>
+					<li><a href="JavaScript:void(0);"><img src="img/feedback.png" title="Leave us Feedback!"></a></li>
+					<li><a href="JavaScript:void(0);"><img src="img/search.png" title="Search the Knowledge Center!"></a></li>
 				</ul>
 			</div>
 		</div>
-		<div id="kcnav">
+		<div id="menu">
 			
 		</div>
-		<div id="kcSlider">
-			
-		</div>
-		<div id="main Content"></div>
-
-
-
-
-
-
-
-
-
-
-
 
 		<!--end of body container-->
 	</div>
+
+	<!--Start of Slider Container-->
+	<div id="sliderContainer">
+		<div>
+			<ul class="bxslider">
+				<li><img src="http://placehold.it/350x150" alt=""></li>
+				<li><img src="http://placehold.it/350x150" alt=""></li>
+				<li><img src="http://placehold.it/350x150" alt=""></li>
+				<li><img src="http://placehold.it/350x150" alt=""></li>
+				<li><img src="http://placehold.it/350x150" alt=""></li>
+				<li><img src="http://placehold.it/350x150" alt=""></li>
+				<li><img src="http://placehold.it/350x150" alt=""></li>
+			</ul>
+		</div>
+	</div>
+
 
 </body>
 </html>
