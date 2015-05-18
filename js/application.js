@@ -12,7 +12,7 @@ $(document).ready(function(){
 	$('.bxslider').bxSlider({
 		auto: true,
 		autoControls: true,
-		pause: (6 * 1000);
+		pause: (6 * 1000),
 		mode: 'horizontal'
 	});
 

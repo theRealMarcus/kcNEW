@@ -71,10 +71,10 @@ body{
 
 /*Slider Container*/
 #sliderContainer{
-	width: auto;
+	width: 1000px;
 	height: auto;
-	min-width: 1000px;
-	min-height: 350px;
-	margin: 0 auto;
+	margin: 15px auto;
 	background: white;
+	padding: 5px 11px 15px;
+	border-radius: 4px;
 }
