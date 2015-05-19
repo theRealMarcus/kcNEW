@@ -1,0 +1,134 @@
+		/* Reset */
+.kcnav,
+.kcnav a,
+.kcnav ul,
+.kcnav li,
+.kcnav div {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.kcnav a {text-decoration: none;}
+.kcnav li {list-style-type: none;}
+
+.kcnav ul {display: inline;}
+
+/*Menu Container*/
+.kcnav {
+	display: inline-block;
+	position: relative;
+	cursor: default;
+	z-index: 500001;
+}
+
+/*Menu List */
+.kcnav > li {
+	display: block;
+	float: left;
+}
+
+/*Menu Links */
+.kcnav > li > a {
+	position: relative;
+	display: block;
+	z-index: 5100;
+	height: 54px;
+	padding: 0 43px;
+	line-height: 54px;
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #023E1E;
+
+	background: #CDC3B3;
+	border-left: 1px solid #EFE0C9;
+	border-right: 1px solid #312a27;
+
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-transition: all .3s ease;
+}
+
+.kcnav > li > a:last-child{
+	padding: 0 55px;
+}
+
+.kcnav > li:hover > a {background: #DAD3C7;}
+
+.kcnav > li:first-child > a {
+	border-radius: 3px 0 0 3px;
+	border-left: none;
+}
+
+.kcnav > li:last-child > a {
+	border-radius: 0 3px 3px 0;
+	border-right: none;
+}
+
+/*Menu Dropdown */
+.kcnav > li > div {
+	position: absolute;
+	display: block;
+	width: 100%;
+	top: 50px;
+	left: 0;
+
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+
+	background: green;
+	border-radius: 0 0 3px 3px;
+
+	-webkit-transition: all .3s ease .15s;
+	-moz-transition: all .3s ease .15s;
+	-o-transition: all .3s ease .15s;
+	-ms-transition: all .3s ease .15s;
+	transition: all .3s ease .15s;
+}
+
+.kcnav > li:hover > div {
+	opacity: 1;
+	visibility: visible;
+	overflow: visible;
+}
+
+/*Menu Content Styles */
+.kcnav .kcnav-column {
+	float: left;
+	width: 20%;
+	padding: 2.5%;
+	z-index: 50000;
+}
+
+.kcnav .kcnav-column h3 {
+	margin: 20px 0 10px 0;
+	line-height: 18px;
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: green;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.kcnav .kcnav-column h3.orange {color: #ff722b;}
+
+.kcnav .kcnav-column li a {
+	display: block;
+	line-height: 26px;
+	text-align: left;
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #888888;
+}
+
+.kcnav .kcnav-column li a:hover {color: green;}
+//.kcnav .kcnav-column li img {padding-left: 10px;}

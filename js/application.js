@@ -10,9 +10,10 @@ $(document).ready(function(){
 
 	//Initialize the  BoxSlider
 	$('.bxslider').bxSlider({
+		//randomStart: true,
+		//autoControls: true,
 		auto: true,
-		autoControls: true,
-		pause: (6 * 1000),
+		pause: (5 * 1000),
 		mode: 'horizontal'
 	});
 
@@ -50,6 +51,6 @@ $(document).ready(function(){
 	
 
 	//Leading the Navigation Markup from the navContent.html file
-	$('#kcnav').load("../includes/navContent.html");
+	$('#kcMenu').load("../includes/navContent.html");
 
 });
