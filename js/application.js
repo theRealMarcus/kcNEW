@@ -1,20 +1,22 @@
 $(document).ready(function(){
 
-	//Lights img up when you hover over the img
-	$('#bttt').mouseover(function(){
-		$(this).fadeTo((0.25 * 1000), 1);
+	//Lights img up when you hover over the #bttt button
+	$('#bttt').hover(function(){
+		$(this).animate({opacity: "1"}, {queue: false});
+	}, function(){
+		$(this).animate({opacity: "0.4"}, {queue: false});
 	});
-	$('#bttt').mouseout(function(){
-		$(this).fadeTo((0.25 * 1000), 0.3)
-	});
+	//Still look for a way to control speed on hover. 200ms is a great time for mouseover and mouseout
 
-	//Initialize the  BoxSlider
+	//Initialize the  BoxSlider - Complete
 	$('.bxslider').bxSlider({
 		//randomStart: true,
 		//autoControls: true,
 		auto: true,
-		pause: (5 * 1000),
-		mode: 'horizontal'
+		pause: (5 * 1000), //5 Second intervals
+		mode: 'horizontal',
+		infiniteLoop: true,
+		adaptiveHeight: true
 	});
 
 	//Scrolls the document up to the top
