@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	//Lights img up when you hover over the #bttt button
-	$('#bttt').hover(function(){
+	$('#scrollToTop').hover(function(){
 		$(this).animate({opacity: "1"}, {queue: false});
 	}, function(){
 		$(this).animate({opacity: "0.4"}, {queue: false});
@@ -19,9 +19,19 @@ $(document).ready(function(){
 		adaptiveHeight: true
 	});
 
-	//Scrolls the document up to the top
-	$("#bttt").click(function(){
-
+	//Sets display based on where the user is on the page & scrolls back to the top
+	//Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('#scrollToTop').fadeIn();
+		} else {
+			$('#scrollToTop').fadeOut();
+		}
+	});
+	//Click event to scroll to top
+	$('#scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
 	});
 
 	//Search overlay
@@ -29,7 +39,7 @@ $(document).ready(function(){
 		$('#searchOverlay').fadeToggle(300);
 	});
 
-	//Slide Toggle the SharePoint ribbon
+	//Slide Toggle the SharePoint ribbon & rotate key
 	$('#headerIcons > ul > li > a > img:first').click(function(){
 		$('#SPRibbon').slideToggle("fast");
 	});

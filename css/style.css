@@ -5,7 +5,7 @@ body{
 	background-repeat: repeat;
 }
 /*Back to the top Button*/
-#bttt{
+#scrollToTop{
 	position: fixed;
 	right: 10px;
 	bottom: 50px;
@@ -73,6 +73,7 @@ body{
 #sliderContainer{
 	width: 1000px;
 	height: auto;
+	min-height: 3000px;
 	margin: 15px auto;
 	background: white;
 	padding: 5px 11px 15px;
