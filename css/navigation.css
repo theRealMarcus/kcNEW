@@ -82,7 +82,7 @@
 	visibility: hidden;
 	overflow: hidden;
 
-	background: green;
+	background: white;
 	border-radius: 0 0 3px 3px;
 
 	-webkit-transition: all .3s ease .15s;
@@ -91,7 +91,8 @@
 	-o-transition: all .3s ease .15s;
 	transition: all .3s ease .15s;
 
-	min-height: 500px
+	min-height: 500px;
+	border-bottom: 1px solid red;
 }
 
 .kcnav > li:hover > div {

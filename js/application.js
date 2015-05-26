@@ -11,7 +11,7 @@ $(document).ready(function(){
 	//Initialize the  BoxSlider - Complete
 	$('.bxslider').bxSlider({
 		//randomStart: true,
-		//autoControls: true,
+		autoControls: true,
 		auto: true,
 		pause: (5 * 1000), //5 Second intervals
 		mode: 'horizontal',
