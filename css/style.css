@@ -68,6 +68,13 @@ body{
 	width: 48px;
 	height: 48px;
 }
+#kcSearch{
+	width: 100%;
+	height: auto;
+	min-height: 80px;
+	background: green;
+	display: none;
+}
 
 /*Slider Container*/
 #sliderContainer{

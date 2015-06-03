@@ -34,9 +34,9 @@ $(document).ready(function(){
 		return false;
 	});
 
-	//Search overlay
-	$('.searchToggle').click(function(){
-		$('#searchOverlay').fadeToggle(300);
+	//Search slideToggle
+	$('#header li:last').click(function(){
+		$('#kcSearch').slideToggle("slow");
 	});
 
 	//Slide Toggle the SharePoint ribbon & rotate key
