@@ -25,28 +25,16 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">​
 
+	<script>
+	$(document).ready(function(){
+		$('#searchKC').click(function(){
+			$('#kcSearch').slideToggle();
+		});
+	});
+	</script>
+
 </head>
 <body>
-
-	<!--new overlay box
-	<div id="overlay-inAbox" class="overlay">
-	    <div class="toolbar"><a class="close" href="#"><span>x</span> close</a></div>
-	    <div class="wrapper">
-	        Hello! I'm in a box.
-	    </div>
-	</div>
-
-	
-
-
-	<!--Search Overlay and Search Box-->
-<!-- 	<div id="searchOverlay">
-		<div id="searchBox">
-			<p class="searchToggle">&#10008; Close</p>
-			<p>Enter Search Here...</p>
-			<input type="search">
-		</div>
-	</div>
 	<!--'Back to the Top' arrow-->
 
 	<a href="http://wwww.google.com"></a>
@@ -70,7 +58,7 @@
 				<ul>
 					<li><a href="JavaScript:void(0);"><img src="img/spFeatures.png" title="SharePoint Features"></a></li>
 					<li><a href="JavaScript:void(0);"><img src="img/feedback.png" title="Leave us Feedback!"></a></li>
-					<li><a href="JavaScript:void(0);"><img src="img/search.png" title="Search the Knowledge Center!"></a></li>
+					<li><a href="JavaScript:void(0);"><img src="img/search.png" title="Search the Knowledge Center!" id="searchKC"></a></li>
 				</ul>
 			</div>
 			
