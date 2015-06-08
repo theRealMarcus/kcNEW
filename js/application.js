@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+	//Loads the Navigation HTML
+	$('nav').load('includes/navContent.html');
+
 	//Lights img up when you hover over the #bttt button
 	$('#scrollToTop').hover(function(){
 		$(this).animate({opacity: "1"}, {queue: false});
@@ -35,9 +38,9 @@ $(document).ready(function(){
 	});
 
 	//Search slideToggle
-	// $('#searchKC').click(function(){
-	// 	$('#kcSearch').slideToggle(500);
-	// });
+	$('#searchKC').click(function(){
+		$('#kcSearch').slideToggle(500);
+	});
 
 	//Slide Toggle the SharePoint ribbon & rotate key
 	$('#headerIcons > ul > li > a > img:first').click(function(){
@@ -57,9 +60,6 @@ $(document).ready(function(){
  //  	});
 
 	//Tooltips for header Icons and Wiki Pages
-	$(function(){
-		$(document).tooltip();
-	})
 	
 
 	//Leading the Navigation Markup from the navContent.html file
