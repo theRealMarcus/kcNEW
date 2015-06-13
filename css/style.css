@@ -11,7 +11,7 @@ body{
 	bottom: 50px;
 	opacity: 0.4;
 }
-/*Containter Code*/
+/*Container Code*/
 #headerContainer{
 	width: 1000px;
 	height: auto;
@@ -81,9 +81,59 @@ body{
 #sliderContainer{
 	width: 1000px;
 	height: auto;
-	min-height: 3000px;
+	min-height: 300px;
 	margin: 15px auto;
 	background: white;
 	padding: 5px 11px 15px;
 	border-radius: 4px;
 }
+
+/*Footer Styling*/
+#footer{
+	width: 1022px;
+	background: white;
+	margin: 0 auto;
+	clear: both;
+	border-radius: 2px;
+}
+#footer1{
+	width: 306px;
+	height: auto;
+	background: yellow;
+	padding-right: 19px;
+	float: left;
+	border-radius: 4px 0 0 4px;
+	padding: 11px;
+}
+#footer2{
+	width: 306px;
+	height: auto;
+	background: green;
+	padding-right: 19px;
+	float: left;
+	padding: 11px;
+}
+#footer3{
+	width: 306px;
+	height: auto;
+	background: blue;
+	float: left;
+	border-radius: 0 4px 4px 0;
+	padding: 11px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

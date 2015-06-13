@@ -3,6 +3,9 @@ $(document).ready(function(){
 	//Loads the Navigation HTML
 	$('nav').load('includes/navContent.html');
 
+	//Loads the Footer HTML
+	$('#footer').load('includes/footer.html');
+
 	//Lights img up when you hover over the #bttt button
 	$('#scrollToTop').hover(function(){
 		$(this).animate({opacity: "1"}, {queue: false});
