@@ -1,0 +1,42 @@
+#footerContainer{
+	width: 1022px;
+	margin: 28px auto;
+	overflow: hidden;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#box1, #box2, #box3{
+	width: 300px;
+	height: 100px;
+	background: white;
+	height: 275px;
+	padding: 20px 11px;
+	border-radius: 4px;
+}
+#box1 img, #box2 img, #box3 img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	border-radius: 50%;
+}
+#box1, #box2{
+	float: left;
+	margin-right: 28px;
+	
+}
+#box3{
+	float: right;
+}
+#box1 h2, #box2 h2, #box3 h2{
+	color: #425069;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+#box1 p, #box2 p, #box3 p{
+	color: #000;
+	margin-bottom: 30px;
+}
+#box1 a, #box2 a, #box3 a{
+	display: block;
+	margin: 0 auto;
+}

@@ -93,7 +93,6 @@
 	transition: all .3s ease .15s;
 
 	min-height: 500px;
-	border-bottom: 1px solid red;
 }
 
 .kcnav > li:hover > div {
@@ -122,7 +121,7 @@
 	text-align: left;
 }
 
-.kcnav .kcnav-column h3.orange {color: #ff722b;}
+.kcnav .kcnav-column h3.red {color: #C75C5C;}
 
 .kcnav .kcnav-column li a {
 	display: block;

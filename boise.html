@@ -18,15 +18,16 @@
 	<link rel="stylesheet" href="css/navigation.css">
 	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" href="css/jquery-ui.theme.css">
+	<link rel="stylesheet" href="css/footerConatiner.css">
 
 	<!--Favicon Code here-->
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon.ico" type="image/x-icon">​
+	<link rel="shortcut icon" href="img/core/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/core/favicon.ico" type="image/x-icon">​
 </head>
 <body>
 	<!--'Back to the Top' arrow-->
 
-	<img src="img/upArrow.png" height="64" width="64" alt="" id="scrollToTop">
+	<img src="img/core/upArrow.png" height="64" width="64" alt="" id="scrollToTop">
 
 	<!--The SharePoint ribbon will go in this div-->
 	<div id="SPRibbon">
@@ -36,13 +37,13 @@
 	<div id="headerContainer">
 		<div id="header">
 			<div id="headerLogo">
-				<a href="http://sharepoint/kc/callcenter"><img src="img/logoMain.png" title="Title Tests"></a>
+				<a href="http://sharepoint/kc/callcenter"><img src="img/core/logoMain.png" title="Title Tests"></a>
 			</div>
 			<div id="headerIcons">
 				<ul>
-					<li><a href="JavaScript:void(0);"><img src="img/spFeatures.png" title="SharePoint Features"></a></li>
-					<li><a href="JavaScript:void(0);"><img src="img/feedback.png" title="Leave us Feedback!"></a></li>
-					<li><a href="JavaScript:void(0);"><img src="img/search.png" title="Search the Knowledge Center!" id="searchKC"></a></li>
+					<li><a href="JavaScript:void(0);"><img src="img/headerIcons/gear.png" title="SharePoint Features"></a></li>
+					<li><a href="JavaScript:void(0);"><img src="img/headerIcons/chat.png" title="Leave us Feedback!"></a></li>
+					<li><a href="JavaScript:void(0);"><img src="img/headerIcons/magnifyingGlass.png" height="70" width="70" title="Search the Knowledge Center!" id="searchKC"></a></li>
 				</ul>
 			</div>
 		</div>
@@ -62,18 +63,39 @@
 	<div id="sliderContainer">
 		<div>
 			<ul class="bxslider">
-				<li><img src="img/essentialoils.png"></li>
-				<li><img src="img/marcus.jpg"></li>
-				<li><img src="img/essentialoils.png"></li>
-				<li><img src="img/marcus.jpg"></li>
+				<li><a href="http://www.google.com"><img src="img/sliderImages/candles.png" height="300" width="1000" alt=""></a></li>
+				<li><a href="http://www.google.com"><img src="img/sliderImages/essentialOils.png" height="300" width="1000" alt=""></a></li>
+				<li><a href="http://www.google.com"><img src="img/sliderImages/marcus.jpg" height="300" width="1000" alt=""></a></li>
+				<li><a href="http://www.google.com"><img src="img/sliderImages/essentialOils.png" height="300" width="1000" alt=""></a></li>
+				<li><a href="http://www.google.com"><img src="img/sliderImages/marcus.jpg" height="300" width="1000" alt=""></a></li>
 			</ul>
 		</div>
 	</div>
 	<div>
 		
 	</div>
-	<div id="footer">
-
+	<div id="footerContainer">
+		<a href="http://sharepoint/kc/callcenter/SitePages/Study%20Hall/Help/Compass%20Navigation.aspx">
+			<div id="box1">
+				<img src="img/footer/compass.png" height="128" width="128" alt="" />
+				<h2>Compass Tutorials</h2>
+				<p>Get help navigating your way through Compass with these step-by-step guides.</p>
+			</div>
+		</a>
+		<a href="http://sharepoint/kc/callcenter/SitePages/Study%20Hall/Help/QD%20Expectations.aspx">
+			<div id="box2">
+				<img src="img/footer/QDExpect.png" height="128" width="128" alt="" />
+				<h2>QD Expectations</h2>
+				<p>Have a question? Check the requirements of your skill set before it's too late.</p>
+			</div>
+		</a>
+		<a href="http://sharepoint/kc/callcenter/SitePages/Games.aspx">
+			<div id="box3">
+				<img src="img/footer/die.png" height="128" width="128" alt="" />
+				<h2>Games and Quizzes</h2>
+				<p>Test your expertise and learn to navigate the Knowledge Center by playing games.</p>
+			</div>
+		</a>
 	</div>
 
 </body>

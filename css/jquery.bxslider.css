@@ -35,6 +35,7 @@
 	border:  5px solid #fff;
 	left: -5px;
 	background: #fff;
+	background: blue;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
@@ -47,7 +48,7 @@
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
-	bottom: -30px;
+	//bottom: -30px;
 	width: 100%;
 }
 
