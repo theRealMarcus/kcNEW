@@ -42,11 +42,11 @@
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 13px;
-	color: #023E1E;
+	color: #4D5B71;
 
-	background: #CDC3B3;
-	border-left: 1px solid #EFE0C9;
-	border-right: 1px solid #312a27;
+	background: #DAD3C7;
+	border-left: 1px solid #888;
+	border-right: 1px solid #a2a2a2;
 
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
@@ -59,7 +59,7 @@
 	padding-right: 44px;
 }
 
-.kcnav > li:hover > a {background: #DAD3C7;}
+.kcnav > li:hover > a {background: #EEEBE6;}
 
 .kcnav > li:first-child > a {
 	border-radius: 3px 0 0 3px;
@@ -93,6 +93,7 @@
 	transition: all .3s ease .15s;
 
 	min-height: 500px;
+	background: #EEEBE6;
 }
 
 .kcnav > li:hover > div {
@@ -116,7 +117,7 @@
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 14px;
-	color: green;
+	color: #4D5B71;
 	text-transform: uppercase;
 	text-align: left;
 }

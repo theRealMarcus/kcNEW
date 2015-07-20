@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url(../img/background.jpg);
+	background-image: url(../img/core/congruent_outline.png);
 	background-repeat: repeat;
 }
 /*Back to the top Button*/
@@ -31,7 +31,7 @@ body{
 	background: #fff;
 	overflow: auto;
 	border-radius: 2px;
-	border-bottom: 3px solid #151A2E;
+	border-bottom: 3px solid #4D5B71;
 }
 #headerLogo{
 	width: 30%;
@@ -84,7 +84,7 @@ body{
 	height: auto;
 	min-height: 300px;
 	margin: 28px auto 0 auto;
-	background: black;
+	background: #fff;
 	padding: 5px 11px 15px;
 	padding: 6px 5;
 	border-radius: 4px;
