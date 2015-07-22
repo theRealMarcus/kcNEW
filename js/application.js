@@ -1,10 +1,12 @@
 $(document).ready(function(){
 
-	//Loads the Navigation HTML
-	$('nav').load('includes/navContentKari.html');
+	//Slide Toggle the SharePoint ribbon & rotate key
+	//$('#headerIcons > ul > li > a > img:first').click(function(){
+	//	//$('#SPRibbon').slideToggle("fast");
+	//});
 
-	//Loads the Footer HTML
-	$('#footer').load('includes/footer.html');
+	//Loads the Navigation HTML
+	$('nav').load('includes/navContent.html');
 
 	//Lights img up when you hover over the #bttt button
 	$('#scrollToTop').hover(function(){
@@ -16,7 +18,6 @@ $(document).ready(function(){
 
 	//Initialize the  BoxSlider - Complete
 	$('.bxslider').bxSlider({
-		//randomStart: true,
 		autoControls: true,
 		auto: true,
 		pause: (5 * 1000), //5 Second intervals
@@ -36,24 +37,14 @@ $(document).ready(function(){
 	});
 	//Click event to scroll to top
 	$('#scrollToTop').click(function(){
-		$('html, body').animate({scrollTop : 0},800);
+		$('html, body').animate({scrollTop : 0},80);
 		return false;
 	});
 
 	//Search slideToggle
-	$('#searchKC').click(function(){
-		$('#kcSearch').slideToggle(500);
-	});
-
-	//Slide Toggle the SharePoint ribbon & rotate key
-	$('#headerIcons > ul > li > a > img:first').click(function(){
-		$('#SPRibbon').slideToggle("fast");
-	});
-
-	//Hover over Icons to update background
-	$('#headerIcons').on("hover", function(){
-		$(this).css("background", "red");
-	});
+	//$('#searchKC').click(function(){
+		//$('#kcSearch').slideToggle(500);
+	//});
 
 	//
 	// $('#headerIcons > ul > li > a > img:first').toggle(function() {
@@ -62,10 +53,5 @@ $(document).ready(function(){
  //    	$(this).rotate({ endDeg:-90 });
  //  	});
 
-	//Tooltips for header Icons and Wiki Pages
-	
-
-	//Leading the Navigation Markup from the navContent.html file
-	$('#kcMenu').load("../includes/navContent.html");
 
 });

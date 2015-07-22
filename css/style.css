@@ -1,9 +1,10 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url(../img/core/congruent_outline.png);
+	background-image: url(../img/core/background.png);
 	background-repeat: repeat;
 }
+
 /*Back to the top Button*/
 #scrollToTop{
 	position: fixed;
@@ -11,15 +12,15 @@ body{
 	bottom: 50px;
 	opacity: 0.4;
 }
-/*Container Code*/
+
+/*Header Container*/
 #headerContainer{
 	width: 1000px;
 	height: auto;
-	margin: 0 auto;
+	margin: -10px auto 0 auto;
 	background: #fff;
-	padding: 11px;
+	padding: 0 11px;
 	border-radius: 4px;
-	margin-top: 0px;
 }
 
 
@@ -32,6 +33,7 @@ body{
 	overflow: auto;
 	border-radius: 2px;
 	border-bottom: 3px solid #4D5B71;
+	background: blue;
 }
 #headerLogo{
 	width: 30%;
@@ -82,25 +84,19 @@ body{
 #sliderContainer{
 	width: 1000px;
 	height: auto;
-	min-height: 300px;
-	margin: 28px auto 0 auto;
+	margin: 14px auto 0;
 	background: #fff;
 	padding: 5px 11px 15px;
-	padding: 6px 5;
+	//padding: 6px 5;
 	border-radius: 4px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Wiki Page Container*/
+#wikiContainer{
+	width: 100px;
+	height: auto;
+	margin: 14px auto 0 auto;
+	background: #fff;
+	padding: 5px 11px 15px;
+	border-radius: 4px;
+}

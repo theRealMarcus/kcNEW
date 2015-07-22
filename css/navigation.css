@@ -13,7 +13,7 @@
 .kcnav a {text-decoration: none;}
 .kcnav li {list-style-type: none;}
 
-.kcnav ul {display: inline;}
+.kcnav ul {display: inline; width: 100%;}
 
 /*Menu Container*/
 .kcnav {
@@ -55,8 +55,8 @@
 	-transition: all .3s ease;
 }
 
-.kcnav > li > a:last{
-	padding-right: 44px;
+.kcnav > li:last-child a{
+	padding-right: 46px;
 }
 
 .kcnav > li:hover > a {background: #EEEBE6;}
