@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	//Loads the Navigation HTML
-	$('nav').load('includes/navContent.html');
+	$('nav').load('includes/navContentKari.html');
 
 	//Loads the Footer HTML
 	$('#footer').load('includes/footer.html');
