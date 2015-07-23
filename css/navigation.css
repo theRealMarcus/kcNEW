@@ -92,7 +92,6 @@
 	-o-transition: all .3s ease .15s;
 	transition: all .3s ease .15s;
 
-	min-height: 500px;
 	background: #EEEBE6;
 }
 

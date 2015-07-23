@@ -28,17 +28,14 @@ body{
 #header{
 	height: auto;
 	width: 100%;
-	background: #ccc;
 	background: #fff;
 	overflow: auto;
 	border-radius: 2px;
 	border-bottom: 3px solid #4D5B71;
-	background: blue;
 }
 #headerLogo{
 	width: 30%;
 	height: auto;
-	min-height: 80px;
 	float: left;
 	background: transparent;
 	margin: 20px;
@@ -72,11 +69,13 @@ body{
 	width: 64px;
 	height: 64px;
 }
+
+/*Search Bar*/
 #kcSearch{
 	width: 100%;
 	height: auto;
-	min-height: 80px;
-	background: green;
+	min-height: 40px;
+	background: blue;
 	display: none;
 }
 
