@@ -1,9 +1,14 @@
 $(document).ready(function(){
 
-	//Slide Toggle the SharePoint ribbon & rotate key
-	//$('#headerIcons > ul > li > a > img:first').click(function(){
-	//	//$('#SPRibbon').slideToggle("fast");
-	//});
+	//Slide Toggle the SharePoint ribbon
+	$('#headerIcons ul li:first-child').click(function(){
+		$('#SPRibbon').slideToggle(200);
+	});
+
+	//Slide Toggle the Search Div
+	$('#headerIcons ul li:last-child').click(function(){
+		$('#kcSearch').slideToggle(200);
+	});
 
 	//Lights img up when you hover over the #bttt button
 	$('#scrollToTop').hover(function(){
@@ -11,7 +16,6 @@ $(document).ready(function(){
 	}, function(){
 		$(this).animate({opacity: "0.4"}, {queue: false});
 	});
-	//Still look for a way to control speed on hover. 200ms is a great time for mouseover and mouseout
 
 	//Initialize the  BoxSlider - Complete
 	$('.bxslider').bxSlider({
@@ -37,18 +41,5 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop : 0},80);
 		return false;
 	});
-
-	//Search slideToggle
-	//$('#searchKC').click(function(){
-		//$('#kcSearch').slideToggle(500);
-	//});
-
-	//
-	// $('#headerIcons > ul > li > a > img:first').toggle(function() {
- //    	$(this).rotate({ endDeg:90, persist:true });
- //  	}, function() {
- //    	$(this).rotate({ endDeg:-90 });
- //  	});
-
-
+	
 });
