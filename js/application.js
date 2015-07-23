@@ -5,9 +5,6 @@ $(document).ready(function(){
 	//	//$('#SPRibbon').slideToggle("fast");
 	//});
 
-	//Loads the Navigation HTML
-	$('nav').load('includes/navContent.html');
-
 	//Lights img up when you hover over the #bttt button
 	$('#scrollToTop').hover(function(){
 		$(this).animate({opacity: "1"}, {queue: false});
